@@ -1,0 +1,15 @@
+header {
+    border-bottom: solid 1px #000000;
+}
+
+footer {
+    border-top: solid 1px #000000;
+}
+
+.error-message {
+    color:#B00020;
+}
+
+.container {
+    margin: 2rem;
+}
