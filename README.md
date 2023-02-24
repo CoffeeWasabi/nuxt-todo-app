@@ -4,8 +4,7 @@
 It will be a simple todo application using a library that is compatible with nuxt.
 
 ## Demo
-!!gif URL
-
+![nuxt-todo-app-demo](https://user-images.githubusercontent.com/126047210/221135694-50cc935a-610f-4fe9-a703-6e85fee9561c.gif)
 
 
 ## Getting Started
@@ -27,19 +26,17 @@ yarn init
 ### Installation
 1. Download this project or git clone it locally.
 ```clone command
-
+git clone https://github.com/CoffeeWasabi/nuxt-todo-app.git
 ```
 
-1. Install npm packages.
+2. Install npm packages.
 ```bash
 # npm
 npm install
 ```
 
-1. Set up prisma.  
+3. Set up prisma.  
 ```
-
-
 # migrate
 npx prisma migrate dev
 
@@ -60,8 +57,8 @@ npm run dev
 Go to [loginURL](http://localhost:3000/login) in chrome.
 
 3. Log in
-
-Please log in with one of the following accounts. 
+Please log in with one of the following accounts.  
+  
 | No | Id | PW | Name |
 | ---- | ---- | ---- | ---- |
 | 1 | id001 | admin001 | Yamada One |
@@ -82,57 +79,7 @@ Please log in with one of the following accounts.
 
 
 ## Author
-
-gmail:  
-twitter:  
-
+gmail:coffee.and.wasabi@gmail.com
 
 ## License
 The source code is licensed MIT.
-
-
-
-
-
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
