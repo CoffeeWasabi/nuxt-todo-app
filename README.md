@@ -50,6 +50,9 @@ npx prisma migrate dev
 
 # initialize data set
 yarn node --loader ts-node/esm prisma/seed.ts
+
+# Launch prisma studio and make sure that the user(Usage > 3.Login) described later is registered on the User table.
+npx prisma studio
 ```
 
 ## Usage
