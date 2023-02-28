@@ -10,17 +10,18 @@ It will be a simple todo application using a library that is compatible with nux
 ## Getting Started
 
 ### Prerequisites
-The following software is required to set up the project.
+Please install the following package in advance.
 
+1. node.js  
+[downloadSite](https://nodejs.org/ja/download/)
+
+2. npm
 ```npm
 npm install npm@latest -g
 ```
-
+3. yarn
 ```yarn
 npm install -g yarn
-
-# enter(empty)
-yarn init
 ```
 
 ### Installation
@@ -29,13 +30,17 @@ yarn init
 git clone https://github.com/CoffeeWasabi/nuxt-todo-app.git
 ```
 
-2. Install npm packages.
-```bash
-# npm
+2. Please move to the nuxt-todo-app directory.
+```
+cd nuxt-todo-app
+```
+
+3. Install npm packages.
+```
 npm install
 ```
 
-3. Set up prisma.  
+4. Set up prisma.  
 ```
 # migrate
 npx prisma migrate dev
