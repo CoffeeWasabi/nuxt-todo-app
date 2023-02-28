@@ -12,24 +12,24 @@
     "seed": "ts-node prisma/seed.ts"
   },
   "devDependencies": {
-    "nuxt": "^3.2.0",
-    "prisma": "^4.9.0",
-    "sass": "^1.58.0"
+    "nuxt": "^3.2.2",
+    "prisma": "^4.10.1",
+    "sass": "^1.58.3"
   },
   "dependencies": {
     "@mdi/font": "^7.1.96",
-    "@nuxt/vite-builder": "^3.2.0",
-    "@pinia/nuxt": "^0.4.6",
-    "@prisma/client": "^4.9.0",
+    "@nuxt/vite-builder": "^3.2.2",
+    "@pinia/nuxt": "^0.4.7",
+    "@prisma/client": "^4.10.1",
     "@vee-validate/rules": "^4.7.4",
     "flush-promises": "^1.0.2",
     "lodash": "^4.17.21",
     "mdi": "^2.2.43",
-    "pinia": "^2.0.30",
+    "pinia": "^2.0.32",
     "ts-node": "^10.9.1",
     "vee-validate": "^4.7.4",
     "vue": "^3.2.47",
-    "vuetify": "^3.1.4"
+    "vuetify": "^3.1.6"
   },
   "name": "nuxt-todo-app",
   "version": "1.0.0"
